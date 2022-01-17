@@ -1,5 +1,5 @@
-import 'package:flutter_starter_project/core/di/injection.dart';
-import 'package:flutter_starter_project/core/utils/services/shared_prefs.dart';
+import 'package:flutter_modular_app/core/di/injection.dart';
+import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../helpers/helpers.dart';

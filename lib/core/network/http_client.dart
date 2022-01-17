@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_starter_project/core/constants/key_constants.dart';
-import 'package:flutter_starter_project/core/env/env_config.dart';
-import 'package:flutter_starter_project/core/utils/services/shared_prefs.dart';
+import 'package:flutter_modular_app/core/constants/key_constants.dart';
+import 'package:flutter_modular_app/core/env/env_config.dart';
+import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
 
 class HttpClient {
   HttpClient({required this.config, required this.preferences});

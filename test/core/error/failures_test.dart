@@ -1,4 +1,4 @@
-import 'package:flutter_starter_project/core/error/failures.dart';
+import 'package:flutter_modular_app/core/error/failures.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

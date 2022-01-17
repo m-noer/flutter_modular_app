@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_starter_project/core/utils/ui/widgets/snackbar.dart';
+import 'package:flutter_modular_app/core/utils/ui/widgets/snackbar.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 

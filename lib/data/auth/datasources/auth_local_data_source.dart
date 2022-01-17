@@ -1,5 +1,5 @@
-import 'package:flutter_starter_project/core/constants/key_constants.dart';
-import 'package:flutter_starter_project/core/utils/services/shared_prefs.dart';
+import 'package:flutter_modular_app/core/constants/key_constants.dart';
+import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
 
 abstract class AuthLocalDataSource {
   Future<void> saveToken(String token);

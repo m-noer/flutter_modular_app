@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_starter_project/core/di/injection.dart';
-import 'package:flutter_starter_project/core/utils/services/notification.dart';
-import 'package:flutter_starter_project/core/utils/services/shared_prefs.dart';
-import 'package:flutter_starter_project/core/utils/ui/widgets/empty.dart';
-import 'package:flutter_starter_project/presentation/auth/pages/login_page.dart';
+import 'package:flutter_modular_app/core/di/injection.dart';
+import 'package:flutter_modular_app/core/utils/services/notification.dart';
+import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
+import 'package:flutter_modular_app/core/utils/ui/widgets/empty.dart';
+import 'package:flutter_modular_app/presentation/auth/pages/login_page.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({Key? key}) : super(key: key);

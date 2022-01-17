@@ -1,5 +1,5 @@
-import 'package:flutter_starter_project/presentation/auth/pages/login_page.dart';
-import 'package:flutter_starter_project/presentation/auth/widgets/login_view.dart';
+import 'package:flutter_modular_app/presentation/auth/pages/login_page.dart';
+import 'package:flutter_modular_app/presentation/auth/widgets/login_view.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../helpers/helpers.dart';

@@ -2,12 +2,12 @@ import 'dart:developer';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_starter_project/core/error/failures.dart';
-import 'package:flutter_starter_project/data/auth/datasources/auth_local_data_source.dart';
-import 'package:flutter_starter_project/data/auth/datasources/auth_remote_data_source.dart';
-import 'package:flutter_starter_project/data/auth/models/models.dart';
-import 'package:flutter_starter_project/domain/auth/entities/entities.dart';
-import 'package:flutter_starter_project/domain/auth/repositories/repository.dart';
+import 'package:flutter_modular_app/core/error/failures.dart';
+import 'package:flutter_modular_app/data/auth/datasources/auth_local_data_source.dart';
+import 'package:flutter_modular_app/data/auth/datasources/auth_remote_data_source.dart';
+import 'package:flutter_modular_app/data/auth/models/models.dart';
+import 'package:flutter_modular_app/domain/auth/entities/entities.dart';
+import 'package:flutter_modular_app/domain/auth/repositories/repository.dart';
 
 const errorMsg = 'Something went wrong';
 

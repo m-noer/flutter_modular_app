@@ -1,5 +1,5 @@
-import 'package:flutter_starter_project/presentation/auth/pages/login_page.dart';
-import 'package:flutter_starter_project/presentation/dashboard/pages/dashboard_page.dart';
+import 'package:flutter_modular_app/presentation/auth/pages/login_page.dart';
+import 'package:flutter_modular_app/presentation/dashboard/pages/dashboard_page.dart';
 import 'package:get/route_manager.dart';
 
 class Routes {

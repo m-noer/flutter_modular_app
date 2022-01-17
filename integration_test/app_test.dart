@@ -1,13 +1,10 @@
-
 import 'package:flutter/material.dart';
-import 'package:flutter_starter_project/main_staging.dart' as app;
+import 'package:flutter_modular_app/main_staging.dart' as app;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-
-
 
   group('end-to-end test', () {
     testWidgets('Testing Login Page', (WidgetTester tester) async {

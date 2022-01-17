@@ -1,4 +1,4 @@
-import 'package:flutter_starter_project/core/env/env_config.dart';
+import 'package:flutter_modular_app/core/env/env_config.dart';
 
 /// * This file is configuration to make separate between environment
 /// see details about [flutter flavor]

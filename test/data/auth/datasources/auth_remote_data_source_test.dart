@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_starter_project/data/auth/datasources/auth_remote_data_source.dart';
-import 'package:flutter_starter_project/data/auth/models/models.dart';
+import 'package:flutter_modular_app/data/auth/datasources/auth_remote_data_source.dart';
+import 'package:flutter_modular_app/data/auth/models/models.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

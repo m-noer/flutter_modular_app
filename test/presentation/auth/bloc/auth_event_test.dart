@@ -1,5 +1,5 @@
-import 'package:flutter_starter_project/data/auth/models/models.dart';
-import 'package:flutter_starter_project/presentation/auth/blocs/auth_bloc.dart';
+import 'package:flutter_modular_app/data/auth/models/models.dart';
+import 'package:flutter_modular_app/presentation/auth/blocs/auth_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

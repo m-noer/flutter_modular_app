@@ -1,7 +1,7 @@
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_starter_project/core/configs/themes/palette.dart';
-import 'package:flutter_starter_project/core/l10n/localizations.dart';
+import 'package:flutter_modular_app/core/configs/themes/palette.dart';
+import 'package:flutter_modular_app/core/l10n/localizations.dart';
 
 class Empty extends StatelessWidget {
   const Empty({Key? key, this.notFoundText}) : super(key: key);

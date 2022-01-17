@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_starter_project/core/configs/routes/routes.dart';
-import 'package:flutter_starter_project/core/configs/themes/custom_theme.dart';
-import 'package:flutter_starter_project/core/constants/key_constants.dart';
-import 'package:flutter_starter_project/core/di/injection.dart';
-import 'package:flutter_starter_project/core/l10n/localizations.dart';
-import 'package:flutter_starter_project/core/utils/services/shared_prefs.dart';
-import 'package:flutter_starter_project/presentation/auth/pages/login_page.dart';
-import 'package:flutter_starter_project/presentation/dashboard/pages/dashboard_page.dart';
+import 'package:flutter_modular_app/core/configs/routes/routes.dart';
+import 'package:flutter_modular_app/core/configs/themes/custom_theme.dart';
+import 'package:flutter_modular_app/core/constants/key_constants.dart';
+import 'package:flutter_modular_app/core/di/injection.dart';
+import 'package:flutter_modular_app/core/l10n/localizations.dart';
+import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
+import 'package:flutter_modular_app/presentation/auth/pages/login_page.dart';
+import 'package:flutter_modular_app/presentation/dashboard/pages/dashboard_page.dart';
 import 'package:get/get.dart';
 
 class App extends StatelessWidget {

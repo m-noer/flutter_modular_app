@@ -2,7 +2,7 @@
     package="com.nerolab.varxcore">
    <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="Flutter Starter Project"
+        android:label="Flutter Modular App"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

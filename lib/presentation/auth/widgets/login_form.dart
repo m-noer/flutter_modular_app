@@ -1,6 +1,6 @@
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_starter_project/core/l10n/localizations.dart';
+import 'package:flutter_modular_app/core/l10n/localizations.dart';
 import 'package:form_field_validator/form_field_validator.dart';
 
 class FormLogin extends StatelessWidget {

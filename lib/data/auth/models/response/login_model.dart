@@ -1,4 +1,4 @@
-import 'package:flutter_starter_project/domain/auth/entities/entities.dart';
+import 'package:flutter_modular_app/domain/auth/entities/entities.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'login_model.g.dart';

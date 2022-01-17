@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_starter_project/core/configs/routes/routes.dart';
-import 'package:flutter_starter_project/core/l10n/localizations.dart';
+import 'package:flutter_modular_app/core/configs/routes/routes.dart';
+import 'package:flutter_modular_app/core/l10n/localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 

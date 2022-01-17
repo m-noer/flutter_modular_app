@@ -1,4 +1,4 @@
-import 'package:flutter_starter_project/core/utils/services/page_util.dart';
+import 'package:flutter_modular_app/core/utils/services/page_util.dart';
 
 ///define size for screen [(width, height and sp for fonts)]
 extension SizeExtension on num {

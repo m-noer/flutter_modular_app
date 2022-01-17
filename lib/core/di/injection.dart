@@ -1,13 +1,13 @@
-import 'package:flutter_starter_project/core/env/env_config.dart';
-import 'package:flutter_starter_project/core/network/http_client.dart';
-import 'package:flutter_starter_project/core/utils/services/notification.dart';
-import 'package:flutter_starter_project/core/utils/services/shared_prefs.dart';
-import 'package:flutter_starter_project/data/auth/datasources/auth_local_data_source.dart';
-import 'package:flutter_starter_project/data/auth/datasources/auth_remote_data_source.dart';
-import 'package:flutter_starter_project/data/auth/repositories/repository_impl.dart';
-import 'package:flutter_starter_project/domain/auth/repositories/repository.dart';
-import 'package:flutter_starter_project/domain/auth/usecases/usecase.dart';
-import 'package:flutter_starter_project/presentation/auth/blocs/auth_bloc.dart';
+import 'package:flutter_modular_app/core/env/env_config.dart';
+import 'package:flutter_modular_app/core/network/http_client.dart';
+import 'package:flutter_modular_app/core/utils/services/notification.dart';
+import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
+import 'package:flutter_modular_app/data/auth/datasources/auth_local_data_source.dart';
+import 'package:flutter_modular_app/data/auth/datasources/auth_remote_data_source.dart';
+import 'package:flutter_modular_app/data/auth/repositories/repository_impl.dart';
+import 'package:flutter_modular_app/domain/auth/repositories/repository.dart';
+import 'package:flutter_modular_app/domain/auth/usecases/usecase.dart';
+import 'package:flutter_modular_app/presentation/auth/blocs/auth_bloc.dart';
 import 'package:get_it/get_it.dart';
 
 final sl = GetIt.instance;

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_starter_project/core/constants/assets_constants.dart';
-import 'package:flutter_starter_project/core/l10n/localizations.dart';
-import 'package:flutter_starter_project/core/utils/ui/widgets/loading_with_text.dart';
-import 'package:flutter_starter_project/core/utils/ui/widgets/snackbar.dart';
-import 'package:flutter_starter_project/data/auth/models/models.dart';
-import 'package:flutter_starter_project/presentation/auth/blocs/auth_bloc.dart';
-import 'package:flutter_starter_project/presentation/auth/widgets/login_form.dart';
-import 'package:flutter_starter_project/presentation/dashboard/pages/dashboard_page.dart';
+import 'package:flutter_modular_app/core/constants/assets_constants.dart';
+import 'package:flutter_modular_app/core/l10n/localizations.dart';
+import 'package:flutter_modular_app/core/utils/ui/widgets/loading_with_text.dart';
+import 'package:flutter_modular_app/core/utils/ui/widgets/snackbar.dart';
+import 'package:flutter_modular_app/data/auth/models/models.dart';
+import 'package:flutter_modular_app/presentation/auth/blocs/auth_bloc.dart';
+import 'package:flutter_modular_app/presentation/auth/widgets/login_form.dart';
+import 'package:flutter_modular_app/presentation/dashboard/pages/dashboard_page.dart';
 import 'package:get/get.dart';
 
 class LoginView extends StatefulWidget {
