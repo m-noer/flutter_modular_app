@@ -11,8 +11,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_modular_app/presentation/app/app.dart';
 import 'package:flutter_modular_app/presentation/app/app_bloc_observer.dart';
-import 'package:get/get.dart';
-import 'package:get/get_utils/get_utils.dart';
 import 'package:get/get_utils/src/platform/platform.dart';
 import 'package:shared/shared.dart';
 
@@ -36,14 +34,14 @@ void main() {
       await core.init();
       await auth.init();
 
-      // if (GetPlatform.isMobile || GetPlatform.isWeb) {
-      //   await Firebase.initializeApp();
+      if (GetPlatform.isMobile || GetPlatform.isWeb) {
+        await Firebase.initializeApp();
 
-      //   /// Set the background messaging handler early on, as a named
-      //   /// top-level function
-      //   FirebaseMessaging.onBackgroundMessage(
-      //       _firebaseMessagingBackgroundHandler);
-      // }
+        /// Set the background messaging handler early on, as a named
+        /// top-level function
+        FirebaseMessaging.onBackgroundMessage(
+            _firebaseMessagingBackgroundHandler);
+      }
 
       BlocOverrides.runZoned(
         () => runApp(

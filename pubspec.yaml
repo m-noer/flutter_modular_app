@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   auth:
-    path: ./auth
+    path: ./features/auth
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1

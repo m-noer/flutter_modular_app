@@ -39,7 +39,7 @@ packages:
   auth:
     dependency: "direct main"
     description:
-      path: auth
+      path: "features/auth"
       relative: true
     source: path
     version: "0.0.1"
