@@ -1,20 +1,20 @@
 import 'dart:async';
 import 'dart:developer';
 
+import 'package:auth/auth.dart' as auth;
 import 'package:bloc/bloc.dart';
+import 'package:core/core.dart' as core;
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_modular_app/core/di/injection.dart' as di;
-import 'package:flutter_modular_app/core/env/env_config.dart';
-import 'package:flutter_modular_app/core/env/flavor.dart';
 import 'package:flutter_modular_app/presentation/app/app.dart';
 import 'package:flutter_modular_app/presentation/app/app_bloc_observer.dart';
 import 'package:get/get.dart';
 import 'package:get/get_utils/get_utils.dart';
 import 'package:get/get_utils/src/platform/platform.dart';
 import 'package:sentry_flutter/sentry_flutter.dart';
+import 'package:shared/shared.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background,
@@ -35,7 +35,8 @@ void main() {
 
       FlavorSettings.staging();
 
-      await di.init();
+      await core.init();
+      await auth.init();
 
       if (GetPlatform.isMobile || GetPlatform.isWeb) {
         await Firebase.initializeApp();

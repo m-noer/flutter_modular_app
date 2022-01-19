@@ -1,19 +1,16 @@
+import 'package:auth/auth.dart';
+import 'package:core/core.dart';
+import 'package:core/core.dart' as core;
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_modular_app/core/configs/routes/routes.dart';
-import 'package:flutter_modular_app/core/configs/themes/custom_theme.dart';
-import 'package:flutter_modular_app/core/constants/key_constants.dart';
-import 'package:flutter_modular_app/core/di/injection.dart';
-import 'package:flutter_modular_app/core/l10n/localizations.dart';
-import 'package:flutter_modular_app/core/utils/services/shared_prefs.dart';
-import 'package:flutter_modular_app/presentation/auth/pages/login_page.dart';
-import 'package:flutter_modular_app/presentation/dashboard/pages/dashboard_page.dart';
+import 'package:flutter_modular_app/routes/routes.dart';
 import 'package:get/get.dart';
+import 'package:shared/shared.dart';
 
 class App extends StatelessWidget {
   App({Key? key}) : super(key: key);
 
-  final prefs = sl<SharedPrefs>();
+  final prefs = core.sl<SharedPrefs>();
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +20,7 @@ class App extends StatelessWidget {
 
     String initialRoute() {
       if (isLogin) {
-        return DashboardPage.route;
+        return LoginPage.route;
       } else {
         return LoginPage.route;
       }
